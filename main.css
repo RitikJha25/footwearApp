@@ -1,0 +1,894 @@
+html{
+	background-image: radial-gradient(black,white);
+}
+											/* Positioning of items */
+
+
+
+
+
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Top left text */
+.top-left {
+
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  margin-top: 100px;
+  right:;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+																
+
+
+
+
+
+														/*Background Wallpaper*/
+														\
+
+
+
+
+.front_wallpaper{
+	z-index: -1;
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	position: all;
+	opacity: 0.5;
+}
+
+												
+
+
+												/* Brand styling */
+
+.home{
+	font-family:Allan;
+	position: absolute;
+	top:2%;
+	left:2%;
+	float: left;
+	color: white;
+	width: 30%;
+}
+
+
+
+.brand{
+		margin-top:%; 
+		position: absolute;
+		font-family: Allan;
+		text-decoration: none;
+		color:#20f50c;
+		font-style: bold;
+
+	}
+
+
+												
+
+													/* Navigation bar styling */
+
+
+
+
+.navbar-container{
+	z-index: 1;
+	top: 2%;
+	margin-left: 50%;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+.navbar
+    {
+         width: 100%;
+         overflow: auto;
+        margin-left:;
+          
+    }
+
+
+
+#navbaar
+  {   
+  	font-family: Sofia;
+      font-size: 2em;
+      float: left;
+      padding-left:1%;
+      padding-right: 1%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+
+
+
+													/*quote*/
+
+.quote{
+	font-family:McLaren;
+	position: absolute;
+	top:20%;
+	left:5%;
+	font-size: 4em;
+	float: left;
+	color: white;
+	width: 40%;
+}
+
+
+           							       /*  slideshow container  */
+
+
+
+
+
+
+.slideshow-container{
+	z-index: 0;
+	position: all;
+  margin-top: 100px;
+  float: right; 
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.mySlides
+{
+	margin-top: 14%;
+}
+
+
+
+                            
+.cont-img{
+	height: 70vh;
+	width: 90%;
+	margin: auto;
+}
+
+
+
+														/* Caption text */
+
+
+
+
+.text {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:;
+  width: 100%;
+  text-align: center;
+}
+
+													/* Naming positioning (1/5 etc) */
+
+
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 8px 12px;
+  position: absolute;
+  
+}
+
+			                            /* Position the "next button" to the right */
+
+
+
+
+.next 
+    {
+    font-size: 0em;
+    right:10%;
+    top: 50%;
+    border-radius: 16px 0 0 16px;
+    padding: 2%;
+    color: white;
+    float: right;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    position: absolute;
+
+    }
+
+
+.prev 
+    {
+    	font-size: 0em;
+ 	  margin-top: -38%;
+      margin-left: -50%;
+      border-radius: 0 16px 16px 0;
+      padding: 2%;
+      color: white;
+      float: left;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+      position: absolute;}
+
+
+
+												/* Hovering of items */
+
+
+
+
+
+
+
+.brand:hover{
+	color: yellow;
+	font-size: 1.1em;
+}
+
+
+
+#br-image:hover{
+	transform: rotate(60deg);
+}
+
+  #navbaar:hover{
+  	color: #4af0da;
+  	font-size: 2.2em;
+  }
+
+
+.container a:hover
+    {
+      background-color: #18c947;
+    }
+
+
+
+
+
+
+
+
+															/* Fading animation */
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+												
+
+												/* for 1200 px devices */
+
+
+@media screen and (max-width: 1150px){
+
+											
+
+											/* Positioning of items */
+
+
+
+
+
+
+				/* Bottom left text */
+
+				.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Top left text */
+.top-left {
+
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  margin-top: 100px;
+  right:;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+																
+
+
+
+
+
+														/*Background Wallpaper*/
+													
+
+
+
+
+.front_wallpaper{
+	z-index: -1;
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	position: all;
+	opacity: 0.5;
+}
+
+												
+
+
+												/* Brand styling */
+
+.home{
+	font-family:Allan;
+	position: absolute;
+	top:2%;
+	left:2%;
+	float: left;
+	color: white;
+	width: 30%;
+}
+
+
+
+.brand{
+		position: absolute;
+		font-family: Allan;
+		text-decoration: none;
+		color:#20f50c;
+		font-style: bold;
+		font-size: 3em;
+
+	}
+
+
+												
+
+													/* Navigation bar styling */
+
+
+
+
+.navbar-container{
+	z-index: 1;
+	top: 2%;
+	margin-left: 40%;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+.navbar
+    {
+         width: 100%;
+         overflow: auto;
+        margin-left:;
+          
+    }
+
+
+
+#navbaar
+  {   
+  	font-family: Sofia;
+      font-size: 2em;
+      float: left;
+      padding:1%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+
+
+
+													/*quote*/
+
+.quote{
+	font-family:McLaren;
+	position: absolute;
+	top:20%;
+	left:5%;
+	font-size: 3.75em;
+	float: left;
+	color: white;
+	width: 40%;
+}
+
+
+           							       /*  slideshow container  */
+
+
+
+
+
+
+.slideshow-container{
+	z-index: 0;
+	position: all;
+  float: right; 
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.mySlides
+{
+	margin-top: 16%;
+}
+
+
+
+                            
+.cont-img{
+	height: 75vh;
+	width: 90%;
+	margin: auto;
+}
+
+
+
+														/* Caption text */
+
+
+
+
+.text {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:;
+  width: 100%;
+  text-align: center;
+}
+
+													/* Naming positioning (1/5 etc) */
+
+
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 8px 12px;
+  position: absolute;
+  
+}
+
+			                            /* Position the "next button" to the right */
+
+
+
+
+.next 
+    {
+    font-size: 0em;
+    right:10%;
+    top: 17%;
+    border-radius: 16px 0 0 16px;
+    padding-top: 35%;
+    padding-bottom:35%; 
+    padding-left: 40%;
+    color: white;
+    float: right;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    position: absolute;
+
+    }
+
+
+.prev 
+    {padding-top: 33%;
+     padding-bottom: 33%;
+    padding-right: 40%;
+    	font-size: 0em;
+    	margin-top: -73%;
+      margin-left: -50%;
+      border-radius: 0 16px 16px 0;
+      color: white;
+      float: left;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+      position: absolute;}
+
+
+
+
+}
+
+
+												
+
+												/* for 1000 px devices */
+
+
+@media screen and (max-width: 1020px)
+
+{
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Top left text */
+.top-left {
+
+}
+				.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  margin-top: 100px;
+  right:;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+																
+
+
+
+
+
+														/*Background Wallpaper*/
+													
+
+
+
+
+.front_wallpaper{
+	z-index: -1;
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	position: all;
+	opacity: 0.5;
+}
+
+												
+
+
+												/* Brand styling */
+
+.home{
+	font-family:Allan;
+	position: absolute;
+	top:2%;
+	left:2%;
+	float: left;
+	color: white;
+	width: 30%;
+}
+
+
+
+.brand{
+		position: absolute;
+		font-family: Allan;
+		text-decoration: none;
+		color:#20f50c;
+		font-style: bold;
+		font-size: 2.8em;
+
+	}
+
+
+												
+
+													/* Navigation bar styling */
+
+
+
+
+.navbar-container{
+	z-index: 1;
+	top: 2%;
+	margin-left: 40%;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+.navbar
+    {
+         width: 100%;
+         overflow: auto;
+        margin-left:;
+          
+    }
+
+
+
+#navbaar
+  {   
+  	font-family: Sofia;
+      font-size: 2em;
+      float: left;
+      padding:1%;
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+  }
+
+
+
+													/*quote*/
+
+.quote{
+	font-family:McLaren;
+	position: absolute;
+	top:20%;
+	left:5%;
+	font-size: 3.5em;
+	float: left;
+	color: white;
+	width: 40%;
+}
+
+
+           							       /*  slideshow container  */
+
+
+
+
+
+
+.slideshow-container{
+	z-index: 0;
+	position: all;
+  float: right; 
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.mySlides
+{
+	margin-top: 16%;
+}
+
+
+
+                            
+.cont-img{
+	height: 75vh;
+	width: 90%;
+	margin: auto;
+}
+
+
+
+														/* Caption text */
+
+
+
+
+.text {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom:;
+  width: 100%;
+  text-align: center;
+}
+
+													/* Naming positioning (1/5 etc) */
+
+
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1em;
+  padding: 8px 12px;
+  position: absolute;
+  
+}
+
+			                            /* Position the "next button" to the right */
+
+
+
+
+.next 
+    {
+    font-size: 0em;
+    right:10%;
+    top: 17%;
+    border-radius: 16px 0 0 16px;
+    padding-top: 40%;
+    padding-bottom:40%; 
+    padding-left: 40%;
+    color: white;
+    float: right;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    position: absolute;
+
+    }
+
+
+.prev 
+    {padding-top: 40%;
+     padding-bottom: 40%;
+    padding-right: 40%;
+    	font-size: 0em;
+    	margin-top: -80%;
+      margin-left: -50%;
+      border-radius: 0 16px 16px 0;
+      color: white;
+      float: left;
+      transition: background-color 0.6s ease;
+      cursor: pointer;
+      position: absolute;}
+
+
+}
+
+
+                                                        /* logos  */
+
+
+.fa {
+  text-decoration: none;
+  }
+ .fa-home{
+ 	font-size: 3em;
+ 	color: white;
+ }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:transparent;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: transparent;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: transparent;
+  color: white;
+}
